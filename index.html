@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumbo - website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<!-- <body> es el contenedor principal -->
+<body>
+    <header>
+        <!-- <header> es el contenedor de la cabecera -->
+        <nav> 
+            <!-- la etiqueta <a> es para un hipervinculo y la etiqueta <nav> es para hacer una barra de navegacion -->
+            <a href="index.HTML"> <img src="img/logo.png" alt="Imagen Logo"> </a>
+            <ul>
+                <!-- la etiqueta ul es un tipo de lista y li es para definir el elemento de la lista -->
+                <li><a href="#"> Inicio </a> </li>
+                <li><a href="#planes"> Adoptar </a> </li>
+                <li><a href="#destinos"> accesorios </a> </li>
+                <li><a href="#contacto"> Contacto </a> </li>
+            </ul>
+        </nav>  
+        <!-- la etiqueta <div> es otro tipo de contenedor -->
+        <div id="hero"> 
+            <img src="img/logo.png" alt="Imagen Brujula">
+            <h1> DOGHOUSE </h1>
+            <h2> El sitio web para encontrar tu amigo ideal </h2>
+            <a href="#"> Empezar </a>
+        </div>  
+    </header>
+    <main>
+        <section id="planes">
+            <div class="container">
+                <H2> ADOPTAR </H2>
+                <p> En <b>DOGHOUSE</b> tenemos las siguientes tipos de razas o perros <br> rescatados que tu puedes adoptar y llevar a tu hogar</p>
+
+                <div class="fila">
+                    <div class="card">
+                        <img src="img/pastor.png" alt="imagen de pastor ALEMAN">
+                        <h3> PASTOR ALEMAN </h3>
+                        <p> ideal para tu familia <br>
+                            de 3 meses en adelante <br> 
+                            vacunas al dia
+                        </p>                       
+                    </div>
+                    <div class="card">
+                        <img src="img/buldog.jpg.png" alt="imagen de buldog">
+                        <h3> BULDOG </h3>
+                        <p> ideal para tu familia <br>
+                            de 3 meses en adelante <br> 
+                            vacunas al dia <br> 
+                    
+                        </p>                       
+                    </div>
+                    <div class="card">
+                        <img src="img/rescatado.png" alt="imagen de un perro callejero">
+                        <h3> RESCATADOS </h3>
+                        <p> ideal para tu familia <br>
+                            gratis <br> 
+                            vacunas al dia  
+                        </p>                       
+                    </div>
+                </div>
+            
+        </section>
+
+        <section id="destinos">
+            
+            <div class="container"> 
+                <h3>ACCESORIOS</h3>     
+                <div class="fila">
+                    <div class="card"">
+                        <img src="img/pelota.png" alt="imagen de cartagena">
+                        <h4>PELOTA</h4>
+                    </div>
+                    <div class="card"">
+                        <img src="img/cuerda.png" alt="imagen de barranquilla">
+                        <h4>PELOTAS DE CUERDA</h4>
+                    </div>
+                </div>
+                <div class="fila1">
+                    <div class="card"">
+                        <img src="img/hueso.png" alt="imagen de lo llanos orientales">
+                        <h4>HUESOS</h4>
+                    </div>
+
+                    <div class="card"">
+                        <img src="img/ROPA.png" alt="imagen de la guajira">
+                        <h4>ROPA</h4>
+                    </div> 
+                </div>
+                    
+            </div>
+            
+            
+        </section>
+        <section id="contacto">
+            <div class="container">
+                <h2> CONTACTO </h2>
+                <p>comparte con nosotros tus datos de contacto y te enviaremos <br> toda la informacion de los medios de pago.</p>
+                    <form action="#">
+                        <div class="fila">
+                            <!-- input para crear un campo que reciba informacion dentro de la pagina -->
+                            <input type="text"placeholder = "Nombre">
+                            <input type="number"placeholder = "Telefono">
+                        </div>
+                        <div class="fila">
+                            <input type="email"placeholder = "Email">
+                            <input type="text"placeholder = "Ciudad">
+                        </div>
+                        <button>
+                            Enviar
+                        </button>
+                    </form>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p>
+            Todos los derechos reservados <br> Pablo Julian Vargas Chiquillo <br> +57 3017516793
+        </p>
+    </footer>
+</body>
+</html>
